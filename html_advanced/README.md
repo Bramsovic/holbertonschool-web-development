@@ -1,139 +1,104 @@
-**HTML Advanced Project**\\
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60"/>
+  <h1 align="center">HTML Advanced</h1>
+  <p align="center">Structure sémantique HTML — sans CSS, sans frameworks</p>
+</p>
+
+<p align="center">
+  <a href="https://validator.w3.org/"><img src="https://img.shields.io/badge/Validated-W3C-blue" alt="W3C Validation"></a>
+  <a href="#learning-objectives"><img src="https://img.shields.io/badge/🎯-Objectives-orange" alt="Objectives"></a>
+  <a href="#tasks"><img src="https://img.shields.io/badge/📚-Tasks-green" alt="Tasks"></a>
+</p>
 
 ---
 
-## Description
+## 📝 Description du Projet
 
-In this first project of the **HTML Advanced** series, you will build the HTML structure of a web page from a Figma design file. No CSS or styling—just pure, semantic, and W3C-compliant HTML. You will focus on understanding and applying HTML fundamentals, semantic sectioning, and validation.
-
-> **Manual QA review** must be requested when you’ve completed the project.
-
----
-
-## Learning Objectives
-
-By the end of this project, you should be able to explain, without Google:
-
-* What is HTML and its role in web development.
-* How to translate a wireframe into an HTML page.
-* What a markup language is.
-* The Document Object Model (DOM) and its structure.
-* The difference between elements (tags) and attributes.
-* The purpose of each HTML tag used in this project.
+Ce projet te challenge à **reproduire intégralement** la structure HTML sémantique d’une page web à partir d’un wireframe Figma, **sans** CSS ni JavaScript.  
+L’objectif : maîtriser les balises, comprendre le DOM et bâtir une base solide avant la mise en forme.
 
 ---
 
-## Resources
+## 📚 Ressources Recommandées
 
-Read or watch the following to prepare:
-
-* **Learn to Code HTML & CSS** (up to and including “Creating Lists”)
-* **Introduction to HTML** *(Holberton School resources)*
-* **MDN Web Docs** on HTML foundational concepts
-
----
-
-## Requirements
-
-* All files must end with a single newline character.
-* A **README.md** file at the root of the project folder is **mandatory**.
-* No external libraries or frameworks: only plain HTML, CSS, and JavaScript are allowed. **No** NodeJS, React, Vue, Bootstrap, etc.
-* Code must validate without errors or warnings using the **W3C HTML Validator**.
+- **Learn to Code HTML & CSS** (jusqu’à “Creating Lists”)  
+- **MDN — Introduction to HTML**  
+- **MDN — HTML Semantic Elements**  
+- **Holberton School — HTML Foundations**  
 
 ---
 
-## Project Structure
+## 🎯 Learning Objectives
+
+À la fin de ce projet, tu sauras expliquer :
+
+1. **Qu’est-ce que HTML ?**  
+2. **Qu’est-ce qu’un langage de balisage ?**  
+3. **Qu’est-ce que le DOM ?**  
+4. **Différence entre élément, tag et attribut**  
+5. **Utilité des balises sémantiques**  
+6. **Construire une page HTML depuis un wireframe**
+
+---
+
+## 📋 Requirements
+
+- Tous les fichiers finissent par une **nouvelle ligne**.  
+- Un `README.md` **obligatoire** à la racine.  
+- **Interdiction** de tout framework/librarie externe (React, Bootstrap, etc.).  
+- **Pur HTML** (CSS et JS seront pour plus tard).  
+- Code **100% W3C compliant** et validé via le [W3C Validator](https://validator.w3.org/).
+
+---
+
+## 📁 Structure du Repo
 
 ```
+
 holbertonschool-web-development/
-└── html_advanced/
-    ├── index.html       # Main HTML file
-    └── README.md        # This file
+└── html\_advanced/
+├── README.md          ← Documentation (toi !)
+└── index.html         ← Structure HTML sémantique
+
 ```
 
 ---
 
-## Tasks Overview
+## 🚀 Tasks
 
-### 0. README and Objectives (mandatory)
+| # | Section           | Description                                                                 | Points |
+|---|-------------------|-----------------------------------------------------------------------------|--------|
+| 0 | README & Objectives | Rédiger un README complet                                                     | 0 / 2  |
+| 1 | Header            | `<header>` avec logo et nav (3 liens)                                       | 0 / 5  |
+| 2 | Banner            | `<main><section>` : `<h1>`, texte, bouton + sous-blocs `<img>`, `<h3>`, `<p>` | 0 / 11 |
+| 3 | Quote             | Section citation : `<img>`, `<blockquote>`, auteur                            | 0 / 7  |
+| 4 | Videos            | Section vidéos : 4 blocs `<img>`, `<h2>`, `<p>` + bloc auteur + notation      | 0 / 12 |
+| 5 | Membership        | Section adhésion : 4 blocs `<img>`, `<h2>`, `<p>`, `<button>`                 | 0 / 5  |
+| 6 | FAQ               | Section FAQ : 2 “lignes” de 2 items (`<h2>`, `<p>`)                          | 0 / 5  |
+| 7 | Footer            | `<footer>` : logo, 3 liens, copyright                                     | 0 / 4  |
 
-* Write this **README.md** with clear objectives, resources, and instructions.
-
-### 1. Header (mandatory, 5 pts)
-
-* Create the basic HTML skeleton (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`).
-* In `<body>`, add a `<header>` containing:
-
-  * A link wrapping a logo image.
-  * A container with three navigation links.
-
-### 2. Banner (mandatory, 11 pts)
-
-* Add a `<main>` with a `<section>` for the banner.
-* Inside the section:
-
-  * **Block 1**: `<h1>`, a paragraph, and a `<button>`.
-  * **Block 2**: `<h2>` and a nested container with four feature blocks (each with an image, `<h3>`, and a paragraph).
-
-### 3. Quote (mandatory, 7 pts)
-
-* Below the banner, add a `<section>` for the quote.
-* Include:
-
-  * An image.
-  * A `<blockquote>` for the quote text.
-  * A caption or element for the author’s name.
-  * A paragraph for additional context.
-
-### 4. Videos (mandatory, 12 pts)
-
-* Add a `<section>` for video content.
-* Include:
-
-  * `<h1>` for the section title.
-  * A container with four video blocks (each: image, `<h2>`, paragraph).
-  * An author info block: author image, `<h3>`, rating stars (images), and a score text.
-
-### 5. Membership (mandatory, 5 pts)
-
-* Create a `<section>` for membership plans.
-* Include `<h1>` and a container with four plan blocks (each: image, `<h2>`, paragraph, `<button>`).
-
-### 6. FAQ (mandatory, 5 pts)
-
-* Add a `<section>` for FAQs.
-* `<h1>` for the title.
-* Two row containers, each containing two FAQ items (each: `<h2>` question and paragraph answer).
-
-### 7. Footer (mandatory)
-
-* After the main content, add a `<footer>`.
-* Structure:
-
-  * Container for centering.
-  * Logo image.
-  * A sub-container with three linked social icons.
-  * A text note (e.g., copyright).
+Clique sur chaque tâche pour plus de détails dans le wireframe Figma.
 
 ---
 
-## Figma Design Access
+## 🎨 Figma Design
 
-Access the official designer file on Figma:
+Accède à la maquette complète et duplique-la :
 
-1. Open the [Project Page in Figma](https://www.figma.com/file/XXX) (you may need a free account).
-2. Duplicate the file to your Drafts to inspect spacing, font sizes (rounded as needed), and all design details.
+<blockquote>
+  <p>🔗 <a href="https://www.figma.com/file/XXXXX/html-advanced">Page Figma — Duplicate to your Drafts</a></p>
+</blockquote>
 
-> **Font resources:** If fonts are missing, use `source-sans-pro` and `Spin-Cycle-OT`.
-
----
-
-## Submission
-
-1. Push your `index.html` and this `README.md` to the `html_advanced` directory of the `holbertonschool-web-development` repo on GitHub.
-2. Ensure your HTML passes the W3C Validator with **no** errors or warnings.
-3. Request a **Manual QA Review** in your project pipeline.
+> **Polices** : `source-sans-pro`, `Spin-Cycle-OT`  
+> **Note** : valeurs flottantes arrondissables.
 
 ---
 
-Good luck, and happy coding!
+## ✅ Validation Finale
+
+1. Passe ton `index.html` sur le [W3C-Validator](https://validator.w3.org/).  
+2. Corrige toutes erreurs et warnings.  
+3. Vérifie tes balises sémantiques (`<header>`, `<main>`, `<section>`, `<footer>`, etc.).  
+
+---
+
