@@ -1,21 +1,55 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60"/>
+  <h1 align="center">CSS Advanced</h1>
+  <p align="center">Front-end styling project — clean, accurate CSS from a Figma design</p>
+</p>
 
-# 🎨 CSS Advanced — Holberton School
+<p align="center">
+  <a href="https://validator.w3.org/"><img src="https://img.shields.io/badge/Validated-W3C-blue" alt="W3C Valid HTML"></a>
+  <a href="#objectives"><img src="https://img.shields.io/badge/🎯-Objectives-orange" alt="Objectives"></a>
+  <a href="#tasks-overview"><img src="https://img.shields.io/badge/🗂️-Tasks-green" alt="Tasks"></a>
+  <a href="https://github.com/your-username/holbertonschool-web-development/actions"><img src="https://img.shields.io/github/actions/workflow/status/your-username/holbertonschool-web-development/ci.yml" alt="CI Status"></a>
+</p>
 
-> A front-end styling project based on a Figma design, focused on clean and accurate CSS integration.
+---
+
+## 📖 Table of Contents
+
+1. [Project Overview](#project-overview)  
+2. [🚀 Objectives](#🚀-objectives)  
+3. [🗂️ Project Structure](#🗂️-project-structure)  
+4. [📋 Tasks Overview](#📋-tasks-overview)  
+5. [🎨 Figma Design](#🎨-figma-design)  
+6. [📐 Typography & Colors](#📐-typography--colors)  
+7. [✨ Best Practices](#✨-best-practices)  
+8. [🌐 Deployment (GitHub Pages)](#🌐-deployment-github-pages)  
+9. [👨‍💻 Author](#👨‍💻-author)  
+10. [📚 Resources](#📚-resources)  
+
+---
+
+## Project Overview
+
+This project **extends** the HTML Advanced work by adding **pixel-perfect CSS** to a static HTML page. You will:
+
+- Interpret a professional Figma layout  
+- Write **clean**, **modular**, and **reusable** CSS  
+- Respect typography, spacing, and color specifications  
+- Publish the result on **GitHub Pages**
+
+> 🔒 No frameworks or preprocessors—just vanilla CSS.
+
+---
 
 ## 🚀 Objectives
 
-This project is a **continuation of the HTML, advanced project**. All previous HTML tasks must be completed before starting this one.
+By the end of this project, you will be able to:
 
-Your main goal is to **replicate a web page layout and design based on a provided Figma file**, using clean and organized CSS. Precision, structure, and simplicity are key.
-
-### You will:
-
-- Style a full HTML page based on a professional Figma design
-- Use accurate measurements, spacing, fonts, and colors
-- Keep CSS selectors simple and reusable
-- Organize your stylesheet cleanly
-- Deploy your final result on **GitHub Pages**
+- Translate Figma designs into maintainable CSS  
+- Organize styles into logical, section-based rules  
+- Use semantic selectors and avoid over-specificity  
+- Ensure cross-browser consistency  
+- Deploy a static site via GitHub Pages
 
 ---
 
@@ -24,112 +58,76 @@ Your main goal is to **replicate a web page layout and design based on a provide
 ```bash
 holbertonschool-web-development/
 └── css_advanced/
-    ├── index.html      # HTML structure (copied from 0x02. HTML, advanced)
-    ├── styles.css      # Main CSS file
-    └── README.md       # This file
+    ├── index.html      # Copied HTML skeleton from HTML Advanced
+    ├── styles.css      # Your main CSS stylesheet
+    └── README.md       # Project documentation
 ````
 
 ---
 
 ## 📋 Tasks Overview
 
-### ✅ 0. README and objectives
-
-* Write this `README.md`
-* Copy your `index.html` file from the previous **HTML, advanced** project
-
-### ✅ 1. Import the style
-
-* Create `styles.css`
-* Link it in the `<head>` of `index.html`:
-
-```html
-<link rel="stylesheet" href="styles.css">
-```
+| Step | Name                   | Description                                                                              |
+| :--: | ---------------------- | ---------------------------------------------------------------------------------------- |
+|   0  | README & Setup         | Create this `README.md` and copy `index.html` from HTML Advanced                         |
+|   1  | Link CSS               | Create `styles.css` and add `<link rel="stylesheet" href="styles.css">` in your `<head>` |
+|   2  | Header & Banner        | Style the `<header>` and first `<section>` of `<main>`                                   |
+|   3  | Quotes/Testimonial     | Apply layout and typography to the quotes block                                          |
+|   4  | Videos Section         | Style video thumbnails, titles, descriptions, and author ratings                         |
+|   5  | Membership Section     | Implement pricing cards with correct spacing, buttons, and hover states                  |
+|   6  | FAQ Section            | Style FAQ grid: two rows of two items each, with question/answer toggles if desired      |
+|   7  | Footer                 | Polish footer layout: logos, links, and copyright                                        |
+|   8  | Deploy to GitHub Pages | Publish your `css_advanced/` folder as a live site                                       |
 
 ---
 
-### ✅ 2. Header and Banner
+## 🎨 Figma Design
 
-* Style the `<header>` and first section of the `<main>` based on the Figma design
+🔗 **[Open the Figma file](#)**
 
-### ✅ 3. Quotes Section
-
-* Style the **quotes/testimonials** section
-* Start identifying common styles and refactor your CSS accordingly
-
-### ✅ 4. Videos List
-
-* Style the section displaying video thumbnails and details
-
-### ✅ 5. Membership
-
-* Style the **Membership**/Pricing/Signup section as shown in the Figma
-
-### ✅ 6. FAQ Section
-
-* Add proper styles for the **FAQ (Frequently Asked Questions)** section
-
-### ✅ 7. Footer
-
-* Style the footer with correct spacing, fonts, and layout
-
-### ✅ 8. Make it Live!
-
-* Deploy your project using **GitHub Pages**
+> Click **“Duplicate to your Drafts”** to access all spacing, color, and typography details.
 
 ---
 
-## 📐 Figma Design File
+## 📐 Typography & Colors
 
-* 🔗 [Figma Design File](#) *(replace with actual link)*
-* Click **"Duplicate to your Drafts"** to view all design properties (spacing, colors, typography, etc.)
+* **Fonts**
 
-### 🖋 Fonts Used
+  * Primary: [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+  * Accent: Spin-Cycle-OT (install locally if needed)
+* **Color Palette**
 
-* [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
-* **Spin-Cycle-OT** (Install manually if missing on your system)
-
-📝 *Some measurements in the Figma may be decimals — it's okay to round them slightly for CSS.*
+  * Primary (#…)
+  * Secondary (#…)
+  * Accent (#…)
+    *(Refer to Figma for exact hex values)*
 
 ---
 
 ## ✨ Best Practices
 
-* Use **clean and minimal selectors**
-* Avoid overusing `!important`
-* Organize your styles by section
-* Prefer **semantic HTML**
-* Make your page responsive (if applicable)
-* Test your layout across different browsers
+* Use **semantic class names** (`.navbar`, `.card`, `.cta-btn`)
+* Keep selectors **DRY** and avoid repetition
+* Organize CSS by **section** or **component**
+* Avoid `!important` except in truly exceptional cases
+* Ensure **responsive readiness** (mobile-first mindset)
+* Test in **Chrome**, **Firefox**, and **Edge**
 
 ---
 
 ## 🌐 Deployment — GitHub Pages
 
-To publish your project:
-
-1. Push your code to your GitHub repository
-2. Go to **Settings > Pages**
-3. Select the `main` branch and root `/` folder
-4. Your live page will be available at:
+1. Push your `css_advanced/` directory to your GitHub repo.
+2. In **Settings → Pages**, select the `main` branch and `/ (root)`.
+3. Your site will be live at:
    `https://<your-username>.github.io/holbertonschool-web-development/css_advanced/`
-
----
-
-## 👨‍💻 Author
-
-**Name:** \[Your Name]
-**Cohort:** Holberton School Lille
-**Project:** CSS Advanced
-**GitHub:** [@your-github](https://github.com/your-github)
 
 ---
 
 ## 📚 Resources
 
-* [Figma - Help Center](https://help.figma.com/)
-* [CSS Tricks](https://css-tricks.com/)
-* [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Figma Help Center](https://help.figma.com/)
+* [MDN CSS Reference](https://developer.mozilla.org/docs/Web/CSS)
+* [CSS-Tricks](https://css-tricks.com/)
 * [Google Fonts](https://fonts.google.com/)
 
